@@ -1,7 +1,7 @@
 <center>
 <title>HomeVideo</title>
 <h1>HomeVideo</h1>    
-<h2>"Make and share all of your child's moments"</h2>
+<h2>"Record and share all of your favorite moments"</h2>
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -18,6 +18,29 @@
 <div id="signup">
     
 <form action="/signup" method="post">
+
+<div class="field-wrap">
+<label>
+Username<span class="req">*</span>
+</label>
+<input type="text" name="username" required autocomplete="off"/>
+</div>
+              
+<div class="field-wrap">
+<label>
+Email Address<span class="req">*</span>
+</label>
+<input type="email" name="email" required autocomplete="off"/>
+</div>
+          
+<div class="field-wrap">
+<label>
+Password<span class="req">*</span>
+</label>
+<input type="password" name="password" required autocomplete="off"/>
+</div>
+          
+<button type="submit" class="button button-block"/>Get Started</button>    
     
 </form>
 
